@@ -1,0 +1,27 @@
+{
+  "version": "2.6.0",
+  "summary": {
+    "title": "Initial Threat Model",
+    "owner": "test",
+    "description": "test",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "Initial Threat Model Diagram",
+        "diagramType": "Generic",
+        "placeholder": "New generic diagram description",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "version": "2.6.0",
+        "cells": [],
+        "description": "Data Flow Diagram"
+      }
+    ],
+    "diagramTop": 2,
+    "reviewer": "test",
+    "threatTop": 0
+  }
+}
