@@ -1026,6 +1026,40 @@
                 "y": 370
               }
             ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 13,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Client/App",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Client/App"
+            ],
+            "id": "ef55a7c7-0349-4201-9603-97a0e6354d2e",
+            "source": {
+              "x": 350,
+              "y": 0
+            },
+            "target": {
+              "x": 350,
+              "y": 590
+            },
+            "vertices": [
+              {
+                "x": 350,
+                "y": 260
+              }
+            ]
           }
         ]
       }
