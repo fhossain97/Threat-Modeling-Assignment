@@ -1044,7 +1044,7 @@
             "data": {
               "type": "tm.Boundary",
               "name": "Client/App",
-              "description": "",
+              "description": "Trust Boundary",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [],
