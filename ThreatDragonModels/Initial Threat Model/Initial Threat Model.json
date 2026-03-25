@@ -740,6 +740,58 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Request Message of Day",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Request Message of Day"
+            ],
+            "id": "c5ba4b6e-bb0b-44f1-bca6-80e5c6c4d93c",
+            "source": {
+              "x": 426,
+              "y": 135
+            },
+            "target": {
+              "cell": "f0f7e025-cac3-4466-83d6-09b156d22cd3",
+              "port": "9bfb1542-03e6-4df9-bd17-e14b83ac3490"
+            },
+            "vertices": [
+              {
+                "x": 720,
+                "y": 50
+              }
+            ]
+          },
+          {
             "position": {
               "x": 630,
               "y": 140
