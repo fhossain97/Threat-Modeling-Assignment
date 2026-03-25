@@ -759,58 +759,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Request Message of the Day",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Request Message of the Day"
-            ],
-            "id": "c5ba4b6e-bb0b-44f1-bca6-80e5c6c4d93c",
-            "source": {
-              "x": 426,
-              "y": 135
-            },
-            "target": {
-              "cell": "f0f7e025-cac3-4466-83d6-09b156d22cd3",
-              "port": "9bfb1542-03e6-4df9-bd17-e14b83ac3490"
-            },
-            "vertices": [
-              {
-                "x": 720,
-                "y": 50
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Store User Comment",
               "description": "Comment submission",
               "outOfScope": false,
@@ -840,6 +788,66 @@
               {
                 "x": 700,
                 "y": 500
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Request Message of the Day",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Request Message of the Day"
+            ],
+            "id": "c5ba4b6e-bb0b-44f1-bca6-80e5c6c4d93c",
+            "source": {
+              "cell": "fd904069-ecf8-4497-92c3-b43b10fa0551",
+              "port": "3e51706e-b761-44b7-a46b-d935df8bd733"
+            },
+            "target": {
+              "cell": "f0f7e025-cac3-4466-83d6-09b156d22cd3",
+              "port": "9bfb1542-03e6-4df9-bd17-e14b83ac3490"
+            },
+            "vertices": [
+              {
+                "x": 500,
+                "y": 100
+              },
+              {
+                "x": 610,
+                "y": 70
+              },
+              {
+                "x": 720,
+                "y": 50
               }
             ]
           },
@@ -1052,7 +1060,7 @@
             },
             "target": {
               "x": 350,
-              "y": 590
+              "y": 380
             },
             "vertices": [
               {
