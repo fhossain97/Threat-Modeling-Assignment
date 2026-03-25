@@ -621,9 +621,67 @@
               "y": 220
             },
             "target": {
-              "x": 796,
-              "y": 320
-            }
+              "cell": "fd904069-ecf8-4497-92c3-b43b10fa0551",
+              "port": "f0ef951d-f5ac-4ad2-8630-f320e36b14a6"
+            },
+            "vertices": [
+              {
+                "x": 620,
+                "y": 270
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Display Message",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Display Message"
+            ],
+            "id": "a04ae8cb-f283-4689-8c1a-6fb5566b4333",
+            "source": {
+              "x": 385,
+              "y": 220
+            },
+            "target": {
+              "cell": "b647b25b-6599-43a7-a5f3-fb8ed910b0bf",
+              "port": "0d3ceb25-50d7-4e1b-ad70-161d7d3a3d69"
+            },
+            "vertices": [
+              {
+                "x": 240,
+                "y": 270
+              }
+            ]
           },
           {
             "position": {
