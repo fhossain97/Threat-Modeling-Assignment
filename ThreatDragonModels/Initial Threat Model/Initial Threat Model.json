@@ -245,7 +245,7 @@
             "data": {
               "type": "tm.Store",
               "name": "Database",
-              "description": "Store",
+              "description": "User, message, and comment database",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -526,6 +526,58 @@
               "cell": "f0f7e025-cac3-4466-83d6-09b156d22cd3",
               "port": "0c2ed2e9-f5c2-4fbc-a54d-9e405d241db6"
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "User record",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "User record"
+            ],
+            "id": "5fdc1ff1-8904-4216-acde-bf9bee646b3a",
+            "source": {
+              "x": 960,
+              "y": 220
+            },
+            "target": {
+              "cell": "5f8fe2be-63d4-457a-a7ae-ffad47f05449",
+              "port": "f0ef951d-f5ac-4ad2-8630-f320e36b14a6"
+            },
+            "vertices": [
+              {
+                "x": 810,
+                "y": 260
+              }
+            ]
           },
           {
             "position": {
