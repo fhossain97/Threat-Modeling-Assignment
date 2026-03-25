@@ -1,5 +1,5 @@
 {
-  "version": "2.6.0",
+  "version": "2.6.1-RC1",
   "summary": {
     "title": "Initial Threat Model",
     "owner": "test",
@@ -15,7 +15,7 @@
         "diagramType": "Generic",
         "placeholder": "New generic diagram description",
         "thumbnail": "./public/content/images/thumbnail.jpg",
-        "version": "2.6.0",
+        "version": "2.6.1-RC1",
         "cells": [
           {
             "position": {
@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "b647b25b-6599-43a7-a5f3-fb8ed910b0bf",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "User",
@@ -158,6 +158,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -241,7 +242,6 @@
               ]
             },
             "id": "f0f7e025-cac3-4466-83d6-09b156d22cd3",
-            "zIndex": 2,
             "data": {
               "type": "tm.Store",
               "name": "Database",
@@ -279,6 +279,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -362,7 +363,6 @@
               ]
             },
             "id": "fd904069-ecf8-4497-92c3-b43b10fa0551",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "Web Application",
@@ -445,6 +445,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -528,7 +529,6 @@
               ]
             },
             "id": "5f8fe2be-63d4-457a-a7ae-ffad47f05449",
-            "zIndex": 11,
             "data": {
               "type": "tm.Process",
               "name": "Authentication",
