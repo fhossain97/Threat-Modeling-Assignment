@@ -812,7 +812,7 @@
             "data": {
               "type": "tm.Flow",
               "name": "Store User Comment",
-              "description": "",
+              "description": "Comment submission",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
