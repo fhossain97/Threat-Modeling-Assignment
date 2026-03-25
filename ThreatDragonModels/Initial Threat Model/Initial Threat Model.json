@@ -253,8 +253,8 @@
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
-              "storesCredentials": false,
-              "storesInventory": false,
+              "storesCredentials": true,
+              "storesInventory": true,
               "threats": []
             }
           },
@@ -373,7 +373,7 @@
               "hasOpenThreats": false,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
-              "isWebApplication": false,
+              "isWebApplication": true,
               "privilegeLevel": "",
               "threats": []
             }
@@ -785,6 +785,10 @@
               "port": "2433bd43-dd98-415a-ae28-4263b72cefdd"
             },
             "vertices": [
+              {
+                "x": 620,
+                "y": 460
+              },
               {
                 "x": 700,
                 "y": 500
