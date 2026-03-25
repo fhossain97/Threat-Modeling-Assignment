@@ -759,7 +759,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Request Message of Day",
+              "name": "Request Message of the Day",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -773,7 +773,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Request Message of Day"
+              "Request Message of the Day"
             ],
             "id": "c5ba4b6e-bb0b-44f1-bca6-80e5c6c4d93c",
             "source": {
@@ -789,7 +789,17 @@
                 "x": 720,
                 "y": 50
               }
-            ]
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           },
           {
             "position": {
@@ -931,7 +941,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Message of the Day",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -945,7 +955,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Message of the Day"
             ],
             "id": "0e1f76ab-d217-4514-a101-85858304d26d",
             "source": {
@@ -960,6 +970,10 @@
               {
                 "x": 890,
                 "y": 310
+              },
+              {
+                "x": 710,
+                "y": 370
               },
               {
                 "x": 690,
