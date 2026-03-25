@@ -144,6 +144,19 @@
                   "new": false,
                   "number": 2,
                   "score": ""
+                },
+                {
+                  "id": "a67e3ed1-ea22-4495-a62c-764213b1047d",
+                  "title": "Excessive logins",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Denial of service",
+                  "description": "attacker could send a high volume of login or comment requests to overwhelm the application and prevent legitimate users from accessing it.",
+                  "mitigation": "- Implement rate limiting\n- Add request throttling\n- Use CAPTCHA or bot detection",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 7,
+                  "score": ""
                 }
               ]
             }
@@ -1144,6 +1157,6 @@
     ],
     "diagramTop": 5,
     "reviewer": "test",
-    "threatTop": 6
+    "threatTop": 7
   }
 }
