@@ -574,6 +574,10 @@
             },
             "vertices": [
               {
+                "x": 940,
+                "y": 220
+              },
+              {
                 "x": 810,
                 "y": 260
               }
@@ -680,6 +684,58 @@
               {
                 "x": 240,
                 "y": 270
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "User Comment",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "User Comment"
+            ],
+            "id": "0e4482ef-0cd1-4752-981a-766ea91c18d9",
+            "source": {
+              "x": 138,
+              "y": 160
+            },
+            "target": {
+              "x": 380,
+              "y": 150
+            },
+            "vertices": [
+              {
+                "x": 270,
+                "y": 120
               }
             ]
           },
