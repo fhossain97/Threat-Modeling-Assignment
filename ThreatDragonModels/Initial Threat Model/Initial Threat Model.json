@@ -136,7 +136,7 @@
           },
           {
             "position": {
-              "x": 920,
+              "x": 960,
               "y": 160
             },
             "size": {
@@ -501,7 +501,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Query Credentials",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -515,23 +515,17 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Query Credentials"
             ],
-            "id": "c8c44d66-9f0d-4140-9bb8-6f8a1d95cd4d",
+            "id": "532a7a35-729c-4d99-b659-4b2309aa4b0c",
             "source": {
-              "x": 790,
+              "x": 788,
               "y": 185
             },
             "target": {
               "cell": "f0f7e025-cac3-4466-83d6-09b156d22cd3",
               "port": "0c2ed2e9-f5c2-4fbc-a54d-9e405d241db6"
-            },
-            "vertices": [
-              {
-                "x": 890,
-                "y": 185
-              }
-            ]
+            }
           },
           {
             "position": {
