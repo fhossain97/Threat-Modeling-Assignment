@@ -789,17 +789,59 @@
                 "x": 720,
                 "y": 50
               }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Store User Comment",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Store User Comment"
             ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            "id": "04abeb84-eaae-4470-b5f5-a6e0d49af82b",
+            "source": {
+              "x": 472,
+              "y": 220
+            },
+            "target": {
+              "cell": "f0f7e025-cac3-4466-83d6-09b156d22cd3",
+              "port": "2433bd43-dd98-415a-ae28-4263b72cefdd"
+            },
+            "vertices": [
+              {
+                "x": 700,
+                "y": 500
+              }
+            ]
           },
           {
             "position": {
